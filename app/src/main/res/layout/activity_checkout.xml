@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightBeige"
+    tools:context=".Activities.Checkout">
+
+
+        <TextView
+            android:id="@+id/DeliverGateLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/deliverGateLabel"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"/>
+
+
+        <RadioGroup
+            android:id="@+id/DeliverGate"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/gate3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gate3"
+                    android:textSize="25sp"
+                    android:textColor="@color/darkBlue"
+                    android:buttonTint="@color/black"/>
+
+                <RadioButton
+                    android:id="@+id/gate4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gate4"
+                    android:textSize="25sp"
+                    android:textColor="@color/darkBlue"
+                    android:buttonTint="@color/black"/>
+        </RadioGroup>
+
+    <TextView
+        android:id="@+id/DeliverTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/deliverTimeLabel"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/DeliverTime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/twelveNoon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/twelveNoon"
+            android:textSize="25sp"
+            android:textColor="@color/darkBlue"
+            android:buttonTint="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/threePM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/threePM"
+            android:textSize="25sp"
+            android:textColor="@color/darkBlue"
+            android:buttonTint="@color/black"/>
+    </RadioGroup>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/confirmBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:text="@string/confirmBtn"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/darkBlue">
+        </Button>
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/cancelBtn"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/darkBlue">
+        </Button>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
